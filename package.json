@@ -1,0 +1,11 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/miily8310s/zenn-content.git",
+  "author": "miily8310s <rillakerika@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zenn-cli": "^0.1.79"
+  }
+}

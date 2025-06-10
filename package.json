@@ -5,12 +5,16 @@
   "repository": "https://github.com/miily8310s/zenn-content.git",
   "author": "miily8310s <rillakerika@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "preview": "zenn preview",
+    "new": "zenn new:article"
+  },
   "dependencies": {
-    "zenn-cli": "^0.1.143"
+    "zenn-cli": "^0.1.161"
   },
   "devDependencies": {
-    "textlint": "^12.0.2",
-    "textlint-rule-preset-ja-spacing": "^2.2.0",
-    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
+    "textlint": "^14.8.0",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
   }
 }

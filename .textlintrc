@@ -22,6 +22,10 @@
         "allowPeriodMarks": [
           ":"
         ]
+      },
+      "ja-no-weak-phrase": false,
+      "sentence-length": {
+        "max": 120
       }
     },
     "preset-ja-spacing": {

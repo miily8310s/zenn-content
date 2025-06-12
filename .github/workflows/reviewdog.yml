@@ -6,13 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: dependence install
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           submodules: true
       - name: Setup node/npm
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "20"
           cache: "npm"
       - name: textlint-github-pr-review
         uses: tsuyoshicho/action-textlint@v3
